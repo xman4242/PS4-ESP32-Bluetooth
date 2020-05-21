@@ -5,7 +5,7 @@
 #include "Arduino.h"
 
 extern "C" {
-  #include  "ps4.h"
+  #include  "PS4_HID.h"
 }
 
 
@@ -44,9 +44,5 @@ class PS4Controller {
         callback_t _callback_disconnect = nullptr;
 
 };
-
-#if !defined(NO_GLOBAL_INSTANCES)
-  extern PS4Controller PS4;
-#endif
 
 #endif

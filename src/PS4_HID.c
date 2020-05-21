@@ -2,7 +2,7 @@
 #include <stdbool.h>
 #include <string.h>
 #include <esp_system.h>
-#include "ps4.h"
+#include "PS4_HID.h"
 #include "ps4_int.h"
 
 /********************************************************************************/

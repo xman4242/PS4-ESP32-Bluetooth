@@ -1,7 +1,7 @@
 #include <stdint.h>
 #include <stdbool.h>
 #include <string.h>
-#include "ps4.h"
+#include "PS4_HID.h"
 #include "ps4_int.h"
 #include "esp_log.h"
 

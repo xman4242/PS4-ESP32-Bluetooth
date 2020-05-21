@@ -27,4 +27,4 @@ void setup()
 ```
 ## Changing the initally selected MAC address
 If you ever desire to change the address from the one you originally selected, you must erase the flash of the ESP32. You can do this with
-the platformio command ```pio run -t erase flash``` or with the corresponding command from the esp-idf. After erasing, upload the sketch with the change address. 
+the platformio command ```pio run -t erase flash``` or with the corresponding command from the esp-idf. After erasing, upload the sketch with the changed address. 
