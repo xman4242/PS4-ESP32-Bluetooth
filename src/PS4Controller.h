@@ -2,14 +2,16 @@
 #define PS4Controller_h
 
 #include <inttypes.h>
+
 #include "Arduino.h"
 
 extern "C" {
-  #include  "PS4_HID.h"
+#include  "ps4.h"
 }
 
 
-class PS4Controller {
+class PS4Controller
+{
     public:
         typedef void(*callback_t)();
 
