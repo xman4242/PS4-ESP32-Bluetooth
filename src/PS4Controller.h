@@ -37,6 +37,7 @@ class PS4Controller
         void attachOnConnect(callback_t callback);
         void attachOnDisconnect(callback_t callback);
 
+
     private:
         static void _event_callback(void *object, ps4_t data, ps4_event_t event);
         static void _connection_callback(void *object, uint8_t is_connected);
